@@ -1,4 +1,3 @@
-![Healthy_14](https://github.com/user-attachments/assets/05b22ddb-af1a-45bf-be0d-292b7ff05b11)#Deep Learning-based Smut and Rust detector for wheat plants
 
 The proposed project aims to address the pressing issue of limited access to agricultural knowledge in rural Pakistan, specifically targeting wheat farmers facing the challenges of Rust and Smut diseases and to provide an accessible AI solution using Deep Learning models. This project helps early diagnosis for the diseased plants by providinng an easy accessible web interface that leads to minimize  yield loss.
 
@@ -27,9 +26,23 @@ Notebooks Folder → Training notebooks
 - Django + ReactJS for frontend & backend
 
 ##  Results
-ResNet50 achieved 96% accuracy in classifying disease severity levels and scoring. 
 YOLOv8 provided fast real-time detection with almost 98% accuracy.
-InceptionResNetV2 balanced performance and precision.
+
+There were 10% of each model’s dataset randomly selected from the whole dataset which the model never saw it neither in training nor in validation process. These images were used to test each model, besides that other datasets from Kaggle were used to test the model. These three models which were the main models (healthy vs diseased, rust vs smut and brown rust vs stem rust) showed high accuracy nearing perfection when tested using the subset of the dataset which the team collected.
+
+1) Healthy vs Diseased Confusion matrix with 10% of collected data
+![Healthy_vs_Diseased_Confusion_matrix](https://github.com/user-attachments/assets/a655d5bc-7474-4b69-aecb-ed50112e23f1)
+
+2) Brown Rust vs Stem rust Confusion matrix
+![BrownRust_vs_StemRust_conf_matrix](https://github.com/user-attachments/assets/29300a2b-0357-4d01-bc30-185ce722083c)
+
+3) Rust vs Smut Confusion matrix
+![Rust_vs_Smut_confusion_matrix](https://github.com/user-attachments/assets/1b6f16e1-cbb2-419a-b863-5ff290bfa1b7)
+
+
+
+## Data Collection
+The project's main objective is to collect a valuable dataset of 1000 images containing healthy, Stem Rust, Stripe Rust and Smut to train a reliable machine-learning model that can correctly recognize and categorize plant diseases from photos. This will enable farmers to protect their crops and boost productivity by acting quickly.
 
 ## Collected Healthy wheat
 ![Healthy_14](https://github.com/user-attachments/assets/d27f65ec-951e-4877-85c0-0ae1350e4116)
