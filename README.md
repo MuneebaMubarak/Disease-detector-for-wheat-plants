@@ -1,3 +1,10 @@
+# Deep Learning Based Rust and Smut Detector for Wheat Plants
+
+-  **IEEE Paper:** This project is published as an academic paper submitted to an IEEE conference.
+-  **Title:** Deep Learning Based Rust and Smut Detector for Wheat Plants  
+-  **Authors:** Alina Dahani, Muneeba Mubarak, Mohamedamin, Dr. Maria Waqas  
+-  **Institution:** Department of Computer and Information Systems Engineering, NED University of Engineering and Technology, Karachi, Pakistan  
+-  **Contact:** muneebamubarak99@gmail.com
 
 The proposed project aims to address the pressing issue of limited access to agricultural knowledge in rural Pakistan, specifically targeting wheat farmers facing the challenges of Rust and Smut diseases and to provide an accessible AI solution using Deep Learning models. This project helps early diagnosis for the diseased plants by providinng an easy accessible web interface that leads to minimize  yield loss.
 
@@ -56,7 +63,22 @@ The project's main objective is to collect a valuable dataset of 1000 images con
 ![Brown_Rust_3](https://github.com/user-attachments/assets/864174b9-ec81-43f1-adae-c1a97767c7df)
 
 
+## Citation
 
+If you use this work, please cite:
+- A. Dahani, M. Mubarak, Mohamedamin, and Dr. M. Waqas, "Deep Learning Based Rust and Smut Detector for Wheat Plants," Department of Computer and Information Systems Engineering, NED University of Engineering and Technology, Karachi, Pakistan.
+
+## Tech Stack
+
+Python · TensorFlow · YOLOv8 · Django · OpenCV · GPU-accelerated training
+HTML · CSS · JavaScript (frontend)
+
+## Supervisor
+
+**Dr. Maria Waqas** — Assistant Professor  
+Department of Computer and Information Systems Engineering  
+NED University of Engineering and Technology  
+ORCID: 0000-0002-8054-5128
 
 
 
